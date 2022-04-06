@@ -7,6 +7,15 @@ h3 {
     font-family: 'Work Sans', sans-serif;
 }
 
+.nav {
+    text-align: center;
+}
+
+.line{
+    text-align: left;
+}
+
+
 body{
 
     display: grid;
@@ -19,8 +28,16 @@ body{
     padding-right: 200px;
 }
 
+p {
+    font-family: 'Work Sans', sans-serif;
+    text-align: center;
+}
 
 img{
     width: 400px;
     padding-left: 325px;
+}
+
+#footer {
+    text-align: center;
 }
