@@ -13,7 +13,6 @@ function add_marker(lat,lng,popup,img){
 }
 
 
-
 add_marker(37.804363, -122.271111, 'Oakland, California', 'images/OaklandCalifornia.jpeg')
 add_marker(22.396427, 114.109497, 'Hong Kong', 'images/HongKong.jpeg')
 add_marker(21.027763, 105.834160, 'Hanoi, Vietnam', 'images/HanoiVietnam.webp')
