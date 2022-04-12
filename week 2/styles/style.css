@@ -66,3 +66,14 @@ img{
     height:80vh; 
     grid-area: main_map;
 }
+
+.map_images{
+    height: auto;
+    width: 150px;
+    
+
+}
+
+.popuptext{
+    text-align: center;
+}
