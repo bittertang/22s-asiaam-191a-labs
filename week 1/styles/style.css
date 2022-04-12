@@ -1,13 +1,16 @@
 h1, h2 {
     text-align: center;
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Roboto Mono', monospace;
 }
 
 h3 {
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Roboto Mono', monospace;
 }
 
 .nav {
+    font-family: 'Roboto Mono', monospace;
+    padding-left: 2%;
+    padding-right: 2%;
     text-align: center;
 }
 
@@ -22,22 +25,44 @@ body{
     grid-template-columns: 1fr; 
     grid-auto-rows: minmax(5px, auto);
     grid-template-areas: "header" "main_content" "footer";
-    height: 100vh;
-    background-color: #9BD1E5;
-    padding-left: 200px;
-    padding-right: 200px;
+    background-color: #F5EFE8;
+    
+}
+
+li{
+    font-family: 'Roboto Mono', monospace;
 }
 
 p {
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Roboto Mono', monospace;
     text-align: center;
 }
 
 img{
     width: 400px;
-    padding-left: 325px;
 }
 
 #footer {
+    font-family: 'Roboto Mono', monospace;
     text-align: center;
+}
+
+#selfpic {
+    text-align: center;
+}
+
+.main{
+    grid-area: main_content;
+    grid-template-areas: "content" "main_map";
+    display: grid;
+    padding: 5%;
+}
+
+#contents{
+    grid-area: content;
+}
+
+#the_map{ 
+    height:80vh; 
+    grid-area: main_map;
 }
