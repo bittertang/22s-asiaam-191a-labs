@@ -29,10 +29,10 @@ function myFunction() {
       longitudes.push([lng]);
       }
     }
-    sheet.getRange('G1') 
+    sheet.getRange('P1') 
     .offset(0, 0, latitudes.length)
     .setValues(latitudes);
-    sheet.getRange('H1') 
+    sheet.getRange('Q1') 
     .offset(0, 0, longitudes.length)
     .setValues(longitudes);
     Utilities.sleep(5000)
